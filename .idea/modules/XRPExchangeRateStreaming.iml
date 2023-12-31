@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module external.linked.project.id="exchangeratestreaming-master [file:/C:/Users/USER/Downloads/ExchangeRateStreaming-master%20(1)/ExchangeRateStreaming-master/]" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
+<module external.linked.project.id="cryptochangedatastreaming [file:/C:/Users/USER/Downloads/DataStreamingProject/CryptoChangeDataStreaming/]" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="SBT" type="JAVA_MODULE" version="4">
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_11">
     <output url="file://$MODULE_DIR$/../../target/scala-2.12/classes" />
     <output-test url="file://$MODULE_DIR$/../../target/scala-2.12/test-classes" />
@@ -72,6 +72,5 @@
     <orderEntry type="library" name="sbt: org.slf4j:slf4j-api:1.7.32:jar" level="project" />
     <orderEntry type="library" name="sbt: org.slf4j:slf4j-log4j12:1.7.32:jar" level="project" />
     <orderEntry type="library" name="sbt: org.xerial.snappy:snappy-java:1.1.8.3:jar" level="project" />
-    <orderEntry type="library" name="lib" level="project" />
   </component>
 </module>

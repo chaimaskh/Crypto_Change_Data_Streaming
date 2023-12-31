@@ -4,10 +4,7 @@ import javafx.scene.Scene;
 import javafx.scene.chart.LineChart;
 import javafx.scene.chart.NumberAxis;
 import javafx.scene.chart.XYChart;
-import javafx.scene.control.Tooltip;
 import javafx.stage.Stage;
-import javafx.scene.text.Font;
-import javafx.scene.text.FontWeight;
 import javafx.scene.chart.CategoryAxis; // Import CategoryAxis
 
 import java.text.SimpleDateFormat;
@@ -23,19 +20,20 @@ public class RealTimeDataVisualization extends Application {
         primaryStage.setTitle("Visualisation des données en temps réel");
 
         // Create Category and Number axes for the chart
-        CategoryAxis xAxis = new CategoryAxis(); // Change to CategoryAxis
+        CategoryAxis xAxis = new CategoryAxis(); // Use CategoryAxis for the X-axis
         NumberAxis yAxis = new NumberAxis();
-        xAxis.setLabel("Date et Temps");
-        yAxis.setLabel("Taux de Change");
+        xAxis.setLabel("Date and Time");
+        yAxis.setLabel("Exchange Rate BTC|USD");
 
-        // Create the chart using the axes
-        LineChart<String, Number> lineChart = new LineChart<>(xAxis, yAxis); // Change to LineChart<String, Number>
-        lineChart.setTitle("Données en temps réel");
+// Create the chart using the axes
+        LineChart<String, Number> lineChart = new LineChart<>(xAxis, yAxis); // Use LineChart<String, Number>
+        lineChart.setTitle("Real-time Data BTC|USD");
         lineChart.setCreateSymbols(false); // Disable default symbols
 
-        // Create a data series for the chart
-        XYChart.Series<String, Number> series = new XYChart.Series<>(); // Change to XYChart.Series<String, Number>
-        series.setName("Taux de Change");
+// Create a data series for the chart
+        XYChart.Series<String, Number> series = new XYChart.Series<>(); // Use XYChart.Series<String, Number>
+        series.setName("Exchange Rate BTC|USD");
+
 
         // Add the series to the chart
         lineChart.getData().add(series);
@@ -50,10 +48,9 @@ public class RealTimeDataVisualization extends Application {
         primaryStage.show();
 
         // Use Exchange Rate data
-        BinanceAPISource binanceAPISource = new BinanceAPISource();
         ScheduledExecutorService executorService = Executors.newScheduledThreadPool(1);
         executorService.scheduleAtFixedRate(() -> {
-            double newValue = binanceAPISource.getRealTimeDataFromBinance(); // Récupérer les données réelles
+            double newValue = getRealTimeDataFromBinance(); // Replace this with actual data retrieval
             long timestamp = System.currentTimeMillis();
 
             // Convert timestamp to a readable date format
@@ -68,6 +65,11 @@ public class RealTimeDataVisualization extends Application {
                 }
             });
         }, 0, 1, TimeUnit.SECONDS);
+    }
+
+    private double getRealTimeDataFromBinance() {
+        // Simulated logic to retrieve real-time data from Binance
+        return Math.random() * 10000;
     }
 
     public static void main(String[] args) {
