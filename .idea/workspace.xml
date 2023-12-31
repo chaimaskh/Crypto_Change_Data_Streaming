@@ -16,6 +16,9 @@
     <option name="done" value="true" />
   </component>
   <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/..">
+      <ProjectState />
+    </projectState>
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
@@ -114,22 +117,12 @@
       <workItem from="1703966983749" duration="7062000" />
       <workItem from="1703974352180" duration="8672000" />
       <workItem from="1704022974128" duration="13560000" />
-      <workItem from="1704058612724" duration="1483000" />
+      <workItem from="1704058612724" duration="1967000" />
+      <workItem from="1704060977489" duration="34000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="scala-line">
-          <url>file://$PROJECT_DIR$/src/main/scala/BitcoinChange.scala</url>
-          <line>24</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
