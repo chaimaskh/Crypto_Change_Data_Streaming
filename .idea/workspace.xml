@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="23e68ca9-9814-4ecd-ab32-11bd60e573d5" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Output/Visualisation.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/Visualisation.mp4" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,6 +92,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\Downloads\DataStreamingProject\CryptoChangeDataStreaming" />
       <recent name="C:\Users\USER\Downloads\DataStreamingProject\CryptoChangeDataStreaming\src\Output" />
       <recent name="C:\Users\USER\Downloads\DataStreamingProject\CryptoChangeDataStreaming\target" />
     </key>
@@ -118,7 +121,7 @@
       <workItem from="1703974352180" duration="8672000" />
       <workItem from="1704022974128" duration="13560000" />
       <workItem from="1704058612724" duration="1967000" />
-      <workItem from="1704060977489" duration="34000" />
+      <workItem from="1704060977489" duration="3170000" />
     </task>
     <servers />
   </component>
