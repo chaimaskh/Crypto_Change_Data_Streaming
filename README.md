@@ -6,6 +6,8 @@
 
     **Chaima Skhiri
 
+    **HHaroun Mezrioui
+
 The Real-Time Data Visualization project is designed to acquire live cryptocurrency exchange rate information, specifically focusing on the Bitcoin-to-USD rate, from the Binance API. This real-time data is then subjected to processing via Apache Flink to enable streaming analytics. The processed data is dynamically visualized using a line chart interface powered by JavaFX.
 
 ## Objectives:
