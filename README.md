@@ -51,7 +51,7 @@ Utilizes a ScheduledExecutorService to periodically update chart data with simul
 
 
 ## Requirements:
-- Java Development Kit (JDK): Install JDK 11 or later versions.
+- Java Development Kit (JDK) and Scala : Install JDK 11 or later versions.
 - Apache Flink: Download and set up Apache Flink, ensuring compatibility with the chosen Java version.
 - JavaFX: Ensure JavaFX is available in your Java installation or set up according to your IDE's requirements.
 - Dependencies: Include necessary dependencies for Apache Flink and JavaFX in your project. For Flink, it's often managed via build tools like Maven or Gradle.
