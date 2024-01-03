@@ -69,7 +69,7 @@ public class RealTimeDataVisualization extends Application {
 
     private double getRealTimeDataFromBinance() {
         // Simulated logic to retrieve real-time data from Binance
-        return Math.random() * 10000;
+        return Math.random() * 42971.70;
     }
 
     public static void main(String[] args) {
