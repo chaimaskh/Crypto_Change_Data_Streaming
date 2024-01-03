@@ -66,9 +66,7 @@ The filtering step preceding the windowing operation narrows down the data strea
 Additionally, the subsequent reduction operation, employing summation within each window, enables the extraction of aggregated insights or computations within these temporal segments, aiding in real-time analytics and decision-making processes. Overall, this methodology of sliding windows, filtering, and aggregating data fosters a structured approach to analyze real-time cryptocurrency exchange rate information, enabling more granular insights and dynamic analytics.
 
 
-![Visualisation](Vis1.png)
-![Visualisation](Vis2.png)
-![Visualisation](Vis3.png)
+![Visualisation](Output.png)
 
 
 
